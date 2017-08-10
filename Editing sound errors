@@ -1,0 +1,17 @@
+((From cffi callback <function _StreamBase.__init__.<locals>.callback_ptr at 0x000002926FA410D0>:
+Traceback (most recent call last):
+File "C:\Users\nawras\Anaconda3\lib\site-packages\ sounddevice.py", line 1003, in callback_ptr
+callback, idata, odata, frames, time, status)
+File "C:\Users\nawras\Anaconda3\lib\site-packages\ sounddevice.py", line 2625, in _wrap_callback
+callback(*args)
+File "C:/Users/nawras/Downloads/ editingsound1.py", line 12, in print_sound
+print("|") * int(volum_norm)
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int')) 
+ 
+the second one (( if status
+^
+SyntaxError: invalid syntax))
+ 
+the third one (( pipe = subprocess.Popen(command, stdout=subprocess.pipe,
+
+AttributeError: module 'subprocess' has no attribute 'pipe'))
